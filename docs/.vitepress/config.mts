@@ -66,10 +66,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/gavin0x00' }
     ],
 
-    // 站点地图
-    sitemap: {
-      hostname: 'https://gavin0x00.github.io/',
-    },
     returnToTopLabel:'返回顶部'
   }
 })
