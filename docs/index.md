@@ -15,7 +15,6 @@ hero:
   #     link: /examples/api-examples
 ---
 
-## Android
-- [自定义一个系统级 service](android/AIDL.md)
-- [LightsService](android/Light.md)
+## 最近更新
 
+<RecentPosts />

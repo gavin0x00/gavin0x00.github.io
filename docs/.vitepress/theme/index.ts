@@ -1,7 +1,10 @@
 /* .vitepress/theme/index.ts */
+import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style/index.css'
 import { watch } from 'vue'
+import RecentPosts from './components/RecentPosts.vue'
+import TagsPage from './components/TagsPage.vue'
 
 // 彩虹背景动画样式
 let homePageStyle: HTMLStyleElement | undefined
@@ -10,6 +13,10 @@ export default {
   extends: DefaultTheme,
 
   enhanceApp({ app, router }) {
+    // 注册全局组件
+    app.component('RecentPosts', RecentPosts)
+    app.component('TagsPage', TagsPage)
+
     // 彩虹背景动画样式
     if (typeof window !== 'undefined') {
       watch(
@@ -19,7 +26,7 @@ export default {
       )
     }
   },
-}
+} satisfies Theme
 
 // 彩虹背景动画样式
 function updateHomePageStyle(value: boolean) {

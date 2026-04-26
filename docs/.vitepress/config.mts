@@ -34,10 +34,11 @@ export default defineConfig({
       label: '目录' // 自定义标题
     },
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       { text: 'Android', link: '/android/' },
-      { text: 'ReadingList', link: '/book/' },
-      { text: 'Examples', link: '/examples/' }
+      { text: '阅读笔记', link: '/book/' },
+      { text: '标签', link: '/tags' },
+      { text: 'VitePress示例', link: '/examples/' }
     ],
 
     sidebar: {
@@ -49,13 +50,13 @@ export default defineConfig({
       ],
       '/book/': [
         {
-          text: 'ReadingList',
+          text: '阅读笔记',
           items: getSidebarItems('/book/')
         }
       ],
       '/examples/': [
         {
-          text: 'Examples',
+          text: 'VitePress示例',
           items: getSidebarItems('/examples/')
         }
       ]
