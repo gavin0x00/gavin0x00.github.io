@@ -3,28 +3,19 @@
 layout: home
 
 hero:
-  name: "Gavin0x00's Blog"
-  # text: "Follow your heart"
-  tagline: "Follow your heart"
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: "Gavin0x00 的小站"
+  text: "成功只有一个——按照自己的方式，去度过人生"
+  tagline: "__《明朝那些事儿》"
+  # actions:
+  #   - theme: brand
+  #     text: Markdown Examples
+  #     link: /examples/markdown-examples
+  #   - theme: alt
+  #     text: API Examples
+  #     link: /examples/api-examples
 ---
 
 ## Android
 - [自定义一个系统级 service](android/AIDL.md)
 - [LightsService](android/Light.md)
-
-## Book
-
-
-## Test
-
-image:
-
-![](assets/2024-11-25-14-45-01-image.png)
 

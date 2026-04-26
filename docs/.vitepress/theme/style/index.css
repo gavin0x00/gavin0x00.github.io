@@ -1,0 +1,25 @@
+/* .vitepress/theme/style/index.css */
+
+/* 主题变量和基础样式 */
+@import './var.css';
+
+/* 彩虹背景动画 */
+@import './rainbow.css';
+
+/* 引用样式 */
+@import './blockquote.css';
+
+/* 容器颜色 */
+@import './custom-block.css';
+
+/* 毛玻璃效果 */
+@import './blur.css';
+
+/* 隐藏横条 */
+@import './hidden.css';
+
+/* 代码块样式 */
+@import './vp-code.css';
+
+/* 代码组样式 */
+@import './vp-code-group.css';

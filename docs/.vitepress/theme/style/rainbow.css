@@ -1,0 +1,79 @@
+/* 彩虹动画 */
+@keyframes rainbow {
+    0% {
+        --rainbow-prev: #009ff7;
+        --rainbow-next: #c76dd1;
+    }
+    1.25% {
+        --rainbow-prev: #009dfa;
+        --rainbow-next: #cf69c9;
+    }
+    2.5% {
+        --rainbow-prev: #009bfc;
+        --rainbow-next: #d566c2;
+    }
+    3.75% {
+        --rainbow-prev: #0098fd;
+        --rainbow-next: #dc63ba;
+    }
+    5% {
+        --rainbow-prev: #0096fd;
+        --rainbow-next: #e160b3;
+    }
+    10% {
+        --rainbow-prev: #638af8;
+        --rainbow-next: #ef5992;
+    }
+    20% {
+        --rainbow-prev: #c76dd1;
+        --rainbow-next: #eb6552;
+    }
+    30% {
+        --rainbow-prev: #ef5992;
+        --rainbow-next: #c6811e;
+    }
+    40% {
+        --rainbow-prev: #eb6552;
+        --rainbow-next: #8b9715;
+    }
+    50% {
+        --rainbow-prev: #c6811e;
+        --rainbow-next: #34a44b;
+    }
+    60% {
+        --rainbow-prev: #8b9715;
+        --rainbow-next: #00a98e;
+    }
+    70% {
+        --rainbow-prev: #34a44b;
+        --rainbow-next: #00a8cf;
+    }
+    80% {
+        --rainbow-prev: #00a98e;
+        --rainbow-next: #009ff7;
+    }
+    90% {
+        --rainbow-prev: #00a8cf;
+        --rainbow-next: #638af8;
+    }
+    100% {
+        --rainbow-prev: #009ff7;
+        --rainbow-next: #c76dd1;
+    }
+}
+
+/* 彩虹色卡初始色 */
+:root {
+    --rainbow-prev: #009ff7;
+    --rainbow-next: #c76dd1;
+}
+
+:root {
+    /* hero标题渐变色 */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--rainbow-prev) 30%, var(--rainbow-next));
+
+    /*hero logo背景渐变色 */
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--rainbow-prev) 30%, var(--rainbow-next));
+    --vp-home-hero-image-filter: blur(80px);
+}

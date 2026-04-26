@@ -1,0 +1,65 @@
+/* .vitepress/theme/style/var.css */
+
+/* 主题色 */
+:root {
+  --vp-c-brand-1: #18794e;
+  --vp-c-brand-2: #299764;
+  --vp-c-brand-3: #30a46c;
+}
+
+.dark {
+  --vp-c-brand-1: #3dd68c;
+  --vp-c-brand-2: #30a46c;
+  --vp-c-brand-3: #298459;
+}
+
+:root {
+  /* hero标题渐变色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+
+  /*hero logo背景渐变色 */
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+/* H1标题渐变色 */
+.VPDoc h1 {
+  background: -webkit-linear-gradient(10deg, #bd34fe 5%, #e43498 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 链接下划线 */
+.vp-doc a {
+    text-decoration: none;
+}
+
+/* VPFeatures 页卡悬浮效果 */
+.VPFeatures .items .item {
+  transition: transform 0.3s;
+}
+
+.VPFeatures .items .item:hover {
+  transform: translateY(-5px);
+}
+
+/* 首页 hero 副标题字体大小和间距 */
+.VPHero .text {
+  font-size: 18px !important;
+}
+
+.VPHero .tagline {
+  font-size: 12px !important;
+  padding-top: 4px !important;
+}
+
+.VPHero .main .text {
+  margin-bottom: 0 !important;
+}
+
+.VPHero .main .tagline {
+  margin-top: 0 !important;
+  padding-top: 4px !important;
+}

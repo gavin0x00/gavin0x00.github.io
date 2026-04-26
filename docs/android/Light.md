@@ -1,8 +1,7 @@
----
-outline: deep
----
+# Light
 
-# LightsService
+
+## LightsService
 
 1 Service side:
 
@@ -18,4 +17,6 @@ Note: 普通 App 可以通过 context.getSystemService() 获取 LightsManager �
 
 4 client side
 
-# Light HAL
+## Light HAL
+
+xxxxxxx
